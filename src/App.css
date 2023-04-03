@@ -1,0 +1,89 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #ffcccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Brush Script MT', cursive;
+  color: #2a4d69;
+}
+
+.movie {
+  border: 2px solid #2a4d69;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.movie img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.review-form {
+  margin-top: 20px;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #2a4d69;
+}
+
+.review-form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.review-form button {
+  background-color: #2a4d69;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.review-list {
+  margin-top: 20px;
+}
+
+.review {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.review p {
+  margin-bottom: 10px;
+  color: #2a4d69;
+}
+
+.stars-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 30px;
+  color: #FFD700;
+  cursor: pointer;
+}
+
+.star:hover,
+.star.active {
+  color: #FEC514;
+}
+
